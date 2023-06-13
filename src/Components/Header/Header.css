@@ -1,11 +1,20 @@
+.header__container{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    height: 112px;
+}
+
 form {
-    background-color: white;
-    width: 300px;
-    height: 44px;
-    border-radius: 5px;
+    width: 573px;
+    height: 56px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 0px 16px;
 }
 
 input {
@@ -14,6 +23,7 @@ input {
     color: black;
     height: 100%;
     width: 100%;
+    text-align: start;
     
 }
 
@@ -30,5 +40,29 @@ input {
     /* Light/Text Color/Body 2 */
 
     color: #9A9AB0;
+    text-align: start;
 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__menu{
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
 }
