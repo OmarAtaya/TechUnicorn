@@ -1,0 +1,45 @@
+.topbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 94px;
+    height: 93px;
+    background-color: white;
+}
+
+.topbar__items{
+    display: flex;
+    gap: 34px;
+}
+
+.topbar__logo{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    /* identical to box height, or 47px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+}
+
+.topbar__item{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.icon__text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+}
