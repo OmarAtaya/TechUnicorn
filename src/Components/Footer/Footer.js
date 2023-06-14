@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className='footer__container'>
       <div className='footer__content'>
-        <img src={Rectangle} alt='' width={"360px"} height={"360px"}/>
+        <img src={Rectangle} alt='' className='footer__image'/>
 
         <div className='footer__menu'>
           <div className='footer__items'>

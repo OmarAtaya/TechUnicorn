@@ -66,7 +66,7 @@ function Reviews() {
                 key={index}
                 className={`carousel-slide-item ${index === currentIndex ? 'active' : ''}`}
                 >
-                <img src={item.image} alt='' width={"320px"} height={"320px"}/>
+                <img src={item.image} alt='' className='review__image'/>
                 <div className='slide__content'>
                     <h3 className='slide__title'>
                     {item.title}

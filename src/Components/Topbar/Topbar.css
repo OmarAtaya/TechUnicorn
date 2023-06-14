@@ -2,9 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 94px;
     height: 93px;
     background-color: white;
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing:border-box;
 }
 
 .topbar__items{
@@ -42,4 +44,44 @@
     /* or 19px */
 
     letter-spacing: 0.005em;
+}
+
+.topbar__icons{
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .topbar__logo{
+        font-size: 15px;
+    }
+    .topbar__container{
+        padding: 0px 15px;
+    }
+    .icon__text{
+        font-size: 9px;
+    }
+    .topbar__items{
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .topbar__logo{
+        font-size: 30px;
+    }
+    .topbar__container{
+        padding: 0px 20px;
+    }
+    .icon__text{
+        font-size: 12px;
+    }
+
+    .topbar__items{
+        gap: 15px;
+    }
+
+    .topbar__item{
+        gap: 2px;
+    }
 }

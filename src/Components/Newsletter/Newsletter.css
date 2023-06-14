@@ -51,4 +51,15 @@
     background-color: #F4F7F8;
     border-radius: 8px;
     width: 60%;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .newsletter__title{
+        font-size: 30px;
+    }
+
+    .newsletter__info{
+        font-size: 12px;
+    }
 }

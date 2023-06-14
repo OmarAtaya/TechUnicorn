@@ -54,7 +54,7 @@ function Home() {
       </div>
       <Topseller products={products}/> {/* Top Seller Section */}
       <div className='home__story'> {/* Our Story Section */}
-        <img src={Rectangle} alt='' width={"607px"} height={"720px"}/>
+        <img src={Rectangle} alt='' className='story__image'/>
         <div className='story__content'>
           <h2 className='story__title'>Story about<br/>Our Brand</h2>
           <p className='story__body'>Develop a website by finding a product identity that has value and<br/> branding to become a characteristic of a company. We will also<br/> facilitate the business marketing of these products with our SEO<br/> experts so that they become a ready-to-use website and help sell<br/> a product from the company Develop a website by finding a<br/> product identity that has value and branding to become a<br/> characteristic of a company. We will also facilitate the business<br/> marketing of these products with our SEO experts so that they<br/> become a ready-to-use website and help sell a product from the<br/> company</p>
@@ -64,12 +64,12 @@ function Home() {
       <div className='home__achievement'> {/* Achievements Section */}
         <h2 className='achievement__title'>Our Achievement</h2>
         <div className='achievement__list'>
-          <img src={Company1} alt='' width={"192px"} height={"104px"}/>
-          <img src={Company2} alt='' width={"192px"} height={"104px"}/>
-          <img src={Company3} alt='' width={"192px"} height={"104px"}/>
-          <img src={Company4} alt='' width={"192px"} height={"104px"}/>
-          <img src={Company5} alt='' width={"192px"} height={"104px"}/>
-          <img src={Company6} alt='' width={"192px"} height={"104px"}/>
+          <img src={Company2} alt='' className='achievement__image' />
+          <img src={Company1} alt='' className='achievement__image' />
+          <img src={Company3} alt='' className='achievement__image' />
+          <img src={Company4} alt='' className='achievement__image' />
+          <img src={Company5} alt='' className='achievement__image' />
+          <img src={Company6} alt='' className='achievement__image' />
         </div>
       </div>
       <Reviews/> {/* Reviews Section */}
@@ -84,7 +84,7 @@ function Home() {
         </div>
         <div className='posts'>
           <div className='article__post'>
-            <img src={Rectangle} alt='' width={"608px"} height={"416px"}/>
+            <img src={Rectangle} alt='' className='article__image'/>
             <h3 className='post__title'>Best Summer Outfit Style</h3>
             <div className='post__info'>
               <h5>14 Feb</h5>
@@ -99,7 +99,7 @@ function Home() {
             </button>
           </div>
           <div className='article__post'>
-            <img src={Rectangle} alt='' width={"608px"} height={"416px"}/>
+          <img src={Rectangle} alt='' className='article__image'/>
             <h3 className='post__title'>Best Summer Outfit Style</h3>
             <div className='post__info'>
               <h5>14 Feb</h5>
@@ -114,7 +114,7 @@ function Home() {
             </button>
           </div>
           <div className='article__post'>
-            <img src={Rectangle} alt='' width={"608px"} height={"416px"}/>
+          <img src={Rectangle} alt='' className='article__image'/>
             <h3 className='post__title'>Best Summer Outfit Style</h3>
             <div className='post__info'>
               <h5>14 Feb</h5>
@@ -129,7 +129,7 @@ function Home() {
             </button>
           </div>
           <div className='article__post'>
-            <img src={Rectangle} alt='' width={"608px"} height={"416px"}/>
+          <img src={Rectangle} alt='' className='article__image'/>
             <h3 className='post__title'>Best Summer Outfit Style</h3>
             <div className='post__info'>
               <h5>14 Feb</h5>

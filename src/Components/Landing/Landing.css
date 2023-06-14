@@ -49,6 +49,9 @@
 }
 
 .landing__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #F86338;
     border: #F86338;
     width: 156px;
@@ -69,4 +72,48 @@
     /* Light/Text Link Color/White */
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    #landing__title{
+        font-size: 15px;
+    }
+
+    #landing__subtitle{
+        font-size: 9px;
+    }
+
+    .landing__button{
+        font-size: 9px;
+        width: 100px;
+        height: 20px;
+    }
+    
+    .landing__content{
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #landing__title{
+        font-size: 15px;
+    }
+
+    #landing__subtitle{
+        font-size: 9px;
+    }
+
+    .landing__button{
+        font-size: 9px;
+        width: 100px;
+        height: 20px;
+    }
+
+    .landing__content{
+        top: 20%;
+    }
+    
+    .landing{
+        margin-bottom: 30px;
+    }
 }

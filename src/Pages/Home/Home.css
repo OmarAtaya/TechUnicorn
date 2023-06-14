@@ -1,5 +1,8 @@
 .home__container{
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home__collection{
@@ -81,6 +84,11 @@
     justify-content: center;
     gap: 50px;
     margin: 160px 0px;
+}
+
+.story__image{
+    width: 607px;
+    height: 720px;
 }
 
 .story__content{
@@ -170,6 +178,11 @@
     gap: 40px;
 
     margin-bottom: 160px;
+}
+
+.achievement__image{
+    width: 192px;
+    height: 104px;
 }
 
 .home__article{
@@ -298,4 +311,119 @@
     text-align: start;
     background-color: transparent;
     border: none;
+}
+
+.article__image{
+    width: 608px;
+    height: 416px;
+}
+
+@media screen and (max-width: 992px) {
+    .home__collection{
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .collection__products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection__bar{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .bar__option{
+        font-size: 12px;
+    }
+    
+    .bar__optionon{
+        font-size: 12px;
+    }
+
+    .collection__title{
+        font-size: 30px;
+    }
+
+    .home__story{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .story__image{
+        width: 75%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .story__content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        text-align: start;
+    }
+    
+    .story__title{
+        font-size: 30px;
+    }
+    
+    .story__body{
+        font-size: 12px;
+    }
+    
+    .achievement__title{
+        font-size: 30px;
+    }
+    
+    .achievement__list{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .achievement__image{
+        width: 25%;
+        height: auto;
+    }
+
+    .posts{
+        columns: 1 auto;
+    }
+
+    .article__header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article__title{
+        font-size: 30px;
+    }
+
+    .article__button{
+        font-size: 16px;
+    }
+
+    .article__image{
+        width: 60%;
+        height: 50%;
+    }
+
+    .article__post{
+        align-items: center;
+    }
+    
+    .post__title{
+        font-size: 25px;
+    }
+    
+    .post__description{
+        font-size: 12px;
+        width: 65%;
+        text-align: center;
+    }
 }
