@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import './Home.css';
-import Landing from '../../assets/Landing.png';
 import ProductCard from '../../Components/ProductCard/ProductCard';
 import Rectangle from '../../assets/Rectangle.png';
 import Company1 from '../../assets/logo 1.png';
@@ -12,6 +11,7 @@ import Company6 from '../../assets/logo 6.png';
 import Newsletter from '../../Components/Newsletter/Newsletter';
 import Topseller from '../../Components/Topseller/Topseller';
 import Reviews from '../../Components/Reviews/Reviews';
+import Landing from '../../Components/Landing/Landing';
 
 
 function Home() {
@@ -28,20 +28,7 @@ function Home() {
   }, [])
   return (
     <div className='home__container'>
-      <div className='home__landing'> {/* Landing Section */}
-        <img src={Landing} alt='' width={"100%"}/>
-        <div className='landing__content'>
-          <h1 id='landing__title'>
-          Your Premium <br/>Sound, Unplugged!
-          </h1>
-          <h5 id='landing__subtitle'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </h5>
-          <button className='landing__button'>
-          Find out More
-          </button>
-        </div>
-      </div>
+      <Landing/>
       <div className='home__collection'> {/* Collection Section */}
         <h2 className='collection__title'>Our Premium Collection</h2>
         <div className='collection__bar'>

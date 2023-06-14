@@ -6,6 +6,8 @@ import Filters from '../../assets/Filters.png';
 import Filter from '../../assets/Filter.png';
 import Arrow from '../../assets/Arrow.png';
 import Rectangle from '../../assets/Rectangle.png';
+import Landing from '../../Components/Landing/Landing';
+import Heart from '../../assets/Heart2.png';
 
 function Shop() {
   const [products, setProducts] = useState([])
@@ -13,7 +15,7 @@ function Shop() {
   useEffect(() => {
     const fetchProducts = async () => {
       //fetching 6 products
-      fetch('https://fakestoreapi.com/products?limit=4')
+      fetch('https://fakestoreapi.com/products?limit=6')
             .then(res=>res.json())
             .then(json=>setProducts(json))
     }
@@ -21,6 +23,7 @@ function Shop() {
   }, [])
   return (
     <div>
+      <Landing/>
       <div className='shop__container'>
         <div className='filter__container'>
           <form id='form1' role="search">
@@ -89,7 +92,25 @@ function Shop() {
           </div>
         </div>
         <div className='product__list'>
-          <button>See More</button>
+          <div className='list'>
+            {products && products.map((item) => {
+              return(
+                <div className="single-item__container">
+                  <div className='list__container'>
+                      <button className='like__button'>
+                        <img src={Heart} alt=''/>
+                      </button>
+                      <div className='item__info'>
+                      <h3 id='item__title'>{item.title}</h3>
+                      <h5 id='item__category'>{item.category}</h5>
+                      <h5 id='item__price'>${item.price}</h5>
+                      </div>
+                  </div>
+                </div>
+              )  
+            })}
+          </div>
+          <button className='list__button'>See More</button>
         </div>
       </div>
       <Newsletter/>

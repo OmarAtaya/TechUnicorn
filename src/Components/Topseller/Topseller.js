@@ -10,16 +10,16 @@ function Topseller({products}) {
             {products.map((item) => {
                 return (
                     <div className="single-item__container">
-                    <div className='item__container'>
-                        <button className='tag__button'>
-                        SALE
-                        </button>
-                        <div className='item__info'>
-                        <h3 id='item__title'>{item.title}</h3>
-                        <h5 id='item__category'>{item.category}</h5>
-                        <h5 id='item__price'>${item.price}</h5>
-                        </div>
-                    </div>
+                      <div className='item__container'>
+                          <button className='tag__button'>
+                          SALE
+                          </button>
+                          <div className='item__info'>
+                          <h3 id='item__title'>{item.title}</h3>
+                          <h5 id='item__category'>{item.category}</h5>
+                          <h5 id='item__price'>${item.price}</h5>
+                          </div>
+                      </div>
                     </div>
                 );
                 })}

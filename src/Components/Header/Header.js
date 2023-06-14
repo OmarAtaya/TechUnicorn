@@ -32,8 +32,9 @@ function Header() {
 
       <div className='header__menu'>
         <img src={Heart} alt='' width={"32px"} height={"32px"}/>
-        <div>
+        <div className='cart'>
           <img src={Cart} alt='' width={"32px"} height={"32px"}/>
+          <div className='cart__num'>3</div>
         </div>
         <img src={User} alt='' width={"32px"} height={"32px"}/>
         <img src={Bell} alt='' width={"32px"} height={"32px"}/>
