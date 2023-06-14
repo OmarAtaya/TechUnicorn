@@ -28,7 +28,7 @@ function Home() {
   }, [])
   return (
     <div className='home__container'>
-      <Landing/>
+      <Landing/> {/*Landing Section*/}
       <div className='home__collection'> {/* Collection Section */}
         <h2 className='collection__title'>Our Premium Collection</h2>
         <div className='collection__bar'>

@@ -30,9 +30,9 @@ function Shop() {
   }, [])
   return (
     <div>
-      <Landing/>
+      <Landing/> {/*Landing Section*/}
       <div className='shop__container'>
-        <div className='Default'>
+        <div className='Default'> {/*Default Filter Section*/}
           <div className='filter__container'>
             <form id='form1' role="search">
               <input 
@@ -100,7 +100,7 @@ function Shop() {
             </div>
           </div>
         </div>
-        <div className='Phone'>
+        <div className='Phone'> {/*Phone Filter Section*/}
           {menu !== true && <div><h3>Filter</h3><AiOutlineMenu className='Home__Menu' onClick={handleClick}/></div>}
           {menu && 
             <div className='filter__container'>
@@ -172,9 +172,7 @@ function Shop() {
             </div>
           }
         </div>
-
-        
-        <div className='product__list'>
+        <div className='product__list'> {/*Product List Section*/}
           <div className='list'>
             {products && products.map((item) => {
               return(
@@ -196,7 +194,7 @@ function Shop() {
           <button className='list__button'>See More</button>
         </div>
       </div>
-      <Newsletter/>
+      <Newsletter/> {/* Newsletter Section */}
     </div>
   )
 }

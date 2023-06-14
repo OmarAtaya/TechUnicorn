@@ -19,7 +19,7 @@ function Header() {
   }
   return (
     <div className='header__container'>
-      <nav className='navigation'>
+      <nav className='navigation'> {/*Default Navigation Section*/}
         <ul>
           <li className='navbar__item'><Link to="/shop" style={{textDecoration: 'none', color: 'black'}}>Shop</Link></li>
           <li className='navbar__item'>Promo</li>
@@ -27,7 +27,7 @@ function Header() {
           <li className='navbar__item'>Blog</li>
         </ul>
       </nav>
-      <div className='nav__phone'>
+      <div className='nav__phone'> {/*Phone Navigation Section*/}
         <AiOutlineMenu className='Home__Menu' onClick={handleClick}/>
         <AnimatePresence>
         {
@@ -100,7 +100,7 @@ function Header() {
         }    
         </AnimatePresence>
       </div>
-      <div className='header__search'>
+      <div className='header__search'> {/*Search Bar Section*/}
         <form role="search">
           <input 
             type="text" id="query" name="q"
@@ -111,7 +111,7 @@ function Header() {
         </form>
       </div>
 
-      <div className='header__menu'>
+      <div className='header__menu'> {/*Icon Section*/}
         <img src={Heart} alt='' className='header__icon'/>
         <div className='cart'>
           <img src={Cart} alt='' className='header__icon'/>
