@@ -1,0 +1,148 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.carousel__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.carousel__subtitle{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* or 20px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 1 */
+
+    color: #515151;
+}
+
+.single-item__container {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.items__container {
+    display: flex;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    margin: 0px 4px 15px;
+}
+
+.item__container{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 451px;
+    background: #E2E2EA;
+    border-radius: 6px;
+}
+
+.item__info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#item__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+    margin-bottom: 0px;
+}
+
+#item__category{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+    letter-spacing: 0.008em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #9A9AB0;
+    margin-bottom: 0px;
+
+}
+
+#item__price{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+
+    text-align: right;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #F86338;
+}
+
+.tag__button{
+    background: #F6F7FB;
+    border-radius: 6px;
+    position: absolute;
+    width: 46px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+    letter-spacing: 0.008em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+    border: none;
+}

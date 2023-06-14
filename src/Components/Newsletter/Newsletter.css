@@ -1,0 +1,54 @@
+.newsletter{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    height: 408px;
+    margin-bottom: 160px;
+}
+
+.newsletter__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 32px;
+}
+
+.newsletter__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.newsletter__info{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* or 20px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #9A9AB0;
+}
+
+#form{
+    background-color: #F4F7F8;
+    border-radius: 8px;
+    width: 60%;
+}

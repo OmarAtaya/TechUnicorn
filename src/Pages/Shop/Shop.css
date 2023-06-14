@@ -1,0 +1,144 @@
+.shop__container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 70px;
+    margin-bottom: 160px;
+}
+
+.filter__container{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 20%;
+}
+
+#form1{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #9A9AB0;
+}
+
+.filter__section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    gap: 24px;
+}
+
+.section__space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.filter__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.price__range{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.remove{
+    text-indent: -40px;
+}
+
+.categories__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0px;
+    margin: 0px;
+}
+
+.featured{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.featured__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.featured__title{
+    text-align: start;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+    margin: 0px;
+}
+
+.featured__price{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+    letter-spacing: 0.008em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+}

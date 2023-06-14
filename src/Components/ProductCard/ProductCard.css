@@ -1,0 +1,43 @@
+.card__category{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #9A9AB0;
+    margin-bottom: 0px;
+}
+
+.card__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.product__card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: flex-end;
+    width: 350px;
+    height: 600px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 40px 40px 40px;
+}

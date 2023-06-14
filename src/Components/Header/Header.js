@@ -20,7 +20,7 @@ function Header() {
       </nav>
 
       <div className='header__search'>
-        <form id="form" role="search">
+        <form role="search">
           <input 
             type="text" id="query" name="q"
             placeholder="Search what you need"

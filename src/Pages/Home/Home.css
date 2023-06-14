@@ -1,0 +1,373 @@
+.home__container{
+    height: fit-content;
+}
+
+.home__landing{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+}
+
+.landing__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    height: 50%;
+    text-align: start;
+}
+
+#landing__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    /* or 77px */
+
+    letter-spacing: 0.003em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+    margin-bottom: 0px;
+}
+
+#landing__subtitle{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* or 20px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 1 */
+
+    color: #515151;
+}
+
+.landing__button{
+    background: #F86338;
+    border: #F86338;
+    width: 156px;
+    height: 56px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Link Color/White */
+
+    color: #FFFFFF;
+}
+
+.home__collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+    margin-bottom: 70px;
+}
+
+.collection__products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.collection__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+
+}
+
+.collection__bar{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.bar__option{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #9A9AB0;
+    background-color: transparent;
+    border: none;
+}
+
+.bar__optionon{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+    background-color: transparent;
+    border: none;
+}
+
+.home__story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 160px 0px;
+}
+
+.story__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 600px;
+    text-align: start;
+}
+
+.story__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+    margin-bottom: 0px;
+}
+
+.story__body{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* or 20px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #9A9AB0;
+    margin-bottom: 100px;
+}
+
+.story__button{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+    background-color: transparent;
+    border: none;
+}
+
+.home__achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievement__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+
+.achievement__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    margin-bottom: 160px;
+}
+
+.home__article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 160px;
+}
+
+.article__header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.article__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #1A242D;
+}
+
+.article__button{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    text-align: right;
+    letter-spacing: 0.005em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+    background-color: transparent;
+    border: none;
+}
+
+.posts{
+    columns: 2 auto;
+}
+
+.article__post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    width: 608px;
+    margin-bottom: 10px;
+}
+
+.post__title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    /* or 37px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+    margin-bottom: 0px;
+}
+
+.post__info{
+    display: flex;
+    gap: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 1 */
+
+    color: #515151;
+}
+
+.post__description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    /* or 20px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 2 */
+
+    color: #9A9AB0;
+}
+
+.post__button{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    
+    letter-spacing: 0.005em;
+    
+    /* Light/Secondary Color/50% */
+    
+    color: #F86338;
+    text-align: start;
+    background-color: transparent;
+    border: none;
+}
